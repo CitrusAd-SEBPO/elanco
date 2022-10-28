@@ -94,16 +94,18 @@
             display: flex;
             align-items: center;
             justify-content: flex-start;
-            width: 50%;
+            width: 53%;
+            max-height: 240px;
+            overflow: hidden;
         }
     
         .citrus-elance-pov__content--logo{
             margin: 0 15px;
-            max-width: 150px;
+            max-width: 140px;
         }
 
         .citrus-elance-pov__content--text{
-            padding: 15px;
+            padding: 70px 15px 0;
         }
 
         .citrus-elance-pov__content--text p{
@@ -119,7 +121,11 @@
         }
 
         .citrus-elance-pov__content--img{
-            
+            padding: 10px 0 0;
+        }
+
+        .citrus-elance-pov__content--img img{
+            padding: 40px 0 0;
         }
     
         .brand-page-section__top-hero--content .headline{
@@ -411,6 +417,20 @@
                 padding: 10px 15px 0;
                 max-width: 45%;
             }
+
+            .citrus-elance-pov__content {
+                max-height: initial;
+                overflow: auto;
+            }
+            .citrus-elance-pov__content--logo {
+                margin: 0 30px;
+                max-width: 200px;
+            }
+
+            .citrus-elance-pov__content--text {
+                padding: 70px 50px 0;
+            }
+
         }
     
         @media screen and (min-width: 1024px) and (max-width: 1200px) {
@@ -427,7 +447,7 @@
 
             .citrus-elance-pov__content--text p{
                 font-size: 10px;
-                padding: 10px 0 0;
+                padding: 10px 0;
             }
 
             .citrus-elance-pov__content--text .elanco-cta-box a{
@@ -469,17 +489,21 @@
                 width: 40%;
             }
 
-            citrus-elance-pov__content--logo {
+            .citrus-elance-pov__content--img img{
+                padding: 0;
+            }
+
+            .citrus-elance-pov__content--logo {
                 margin: 0 0 0 10px;
             }
 
             .citrus-elance-pov__content--text p{
                 font-size: 10px;
-                padding: 10px 0 0;
+                padding: 10px 0;
             }
 
             .citrus-elance-pov__content--text .elanco-cta-box a{
-                min-width: 100px;
+                min-width: 130px;
             }
 
             .citrus-elanco__bottom-hero--text h3 {
@@ -563,6 +587,8 @@
                 width: 100%;
                 position: relative;
                 padding: 20px 0;
+                max-height: initial;
+                overflow: auto;
             }
 
             .citrus-elance-pov__content--logo {
@@ -798,8 +824,6 @@
     <!-- *** Elanco brand page ***  -->
     <div class="brand-page-section">
         <div class="brand-page-section__top-hero container-fluid" title="Vet recommended protection. Seresto, Advantage 2 and K9 Advantix 2 treatment products. Do not use K9 Advantix 2 on cats.">
-            <!-- <img class="m-hide" src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/elanco-POV_DSK" lazyimg="loaded" data-src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/elanco-POV_DSK" alt="Vet recommended protection. Seresto, Advantage 2 and K9 Advantix 2 treatment products. Do not use K9 Advantix 2 on cats.">
-            <img class="d-hide" src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/elanco-POV_MOB" lazyimg="loaded" data-src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/elanco-POV_MOB" alt="Vet recommended protection. Seresto, Advantage 2 and K9 Advantix 2 treatment products. Do not use K9 Advantix 2 on cats."> -->
             <div class="citrus-elance-pov__content" title="Vet recommended protection. Seresto, Advantage 2 and K9 Advantix 2 treatment products. Do not use K9 Advantix 2 on cats.">
                 <div class="citrus-elance-pov__content--logo">
                     <img src="img/citrus-elanco-logo-square-angle.png">
